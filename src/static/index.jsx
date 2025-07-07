@@ -1,0 +1,1 @@
+export const BTNS = ["learn more", "order", "buy now"]
