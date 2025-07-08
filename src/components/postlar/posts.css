@@ -1,0 +1,12 @@
+.ahead{
+   background-image: url(../../assets/aheadBro.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.frame{
+   background-image: url(../../assets/Frame.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}   
