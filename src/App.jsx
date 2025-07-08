@@ -18,8 +18,8 @@ function App() {
       <div className='bg-[#F7F7F7]'>
         <Posts/>
         <Recent/>
-        <Footer/>
       </div>
+        <Footer/>
     </>
   )
 }

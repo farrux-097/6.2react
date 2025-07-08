@@ -4,7 +4,7 @@ import { AllItems} from '../../static'
 const Recent = () => {
   return (
     <>
-    <section>
+    <section >
 <div className='containers'>
 
      <div className='flex items-center flex-col mb-[16px]'>
@@ -14,7 +14,7 @@ const Recent = () => {
     <div className='flex items-center justify-center gap-[24px] flex-wrap'>
         {
             AllItems?.map((items) => (
-                <div className='w-[296px] h-[291px]'>
+                <div className='mb-[89px]'>
                 <img className='w-[295px] h-[150px] mb-[15px]' src={items.image} alt="" />
                     <h2 className='text-[16px] text-[#101315] mb-[6px] font-medium'>{items.title}</h2>
                     <p className='text-[13px] text-[#7A7A7A] mb-[40px]'> {items.text}</p>
@@ -30,11 +30,6 @@ const Recent = () => {
             ))
         }
     </div>
-    <li>
-        <span>
-
-        </span>
-    </li>
         </div>
         </section>
     </>
